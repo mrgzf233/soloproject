@@ -1,15 +1,20 @@
 # CISC 4900 Project
 
 # Description
-This is my CISC 4900 Project, supervised by Professor Hui Chen. 
+This is my CISC 4900 Project, supervised by Professor Hui Chen from Brooklyn College. 
 
-The files that are being uploaded here are the tasks I work on in the supervised project and are constantly updated as I work on the project: Webvulmap(Mapping Security Vulnerability between Computer Science Body of Knowledge). 
+The files that are being uploaded here are the tasks I worked on in the supervised project and are constantly updated as I work on the project: Webvulmap(Mapping Security Vulnerability between Computer Science Body of Knowledge). 
 The main repository is owned by my supervisor aka Professor Hui Chen, the public repository is linked here: https://github.com/RealVulnerabilityEdu/webvulmap/commits/main/
 
 Project website: https://secwebmap.streamlit.app
 
 Please note that both private and public repositories are the same, once the changes have been committed in the private repository it will then be done the same with the public repository. Afterwards I will then upload the files to this current repository to showcase it. My Repository > Private > Public > My Repository
 The reason behind having two repositories is because of privacy reasons.
+
+## Note
+
+The files and tasks in this repository showcase selected work completed during a specific semester of the CISC 4900 supervised project under Professor Hui Chen. They do not represent the full scope of my contributions, which also included experience with Git, GitHub, version control, and command-line tools that are not directly reflected in the uploaded files.
+
 
 ## Mapping Web App
 The web application maps between software security topics (CWEs and CVEs)
@@ -38,7 +43,7 @@ Python and HTML/CSS
 Generally, we will manually map a small set of topics/software security topic, and use it to train a machine learning model to map the rest.
 
 
-## Tasks that I will be doing
+## Tasks Completed
 
 1. To create the map between computer science knowledge topics and
 software security topics
@@ -49,9 +54,14 @@ software security topics
 Task 1: Familiarize with the processing pipeline of parsing a knowledge area. The input to the pipeline is the CS2013 pdf file, and the output is a JSON file for the selected knowledge area.
 
 Task 2: To develop a Python program that takes a JSON file as input. The program of the output is a single JSON object that contains all the KAs. This program should build upon the existing programs. 
-My approach to it is to manually add/read in the json files for now, then use a forloop to iterate to load the files and have them all dumped into the python dictionary list. 
+My approach was to it is to manually add/read in the json files for now, then use a forloop to iterate to load the files and have them all dumped into the python dictionary list. 
 
 Task 3: To facilitate JSONinifying the curriculum document, a PDF file to a JSON object, we are creating a metadata file that specifies, Knowledge Area's begin and end page numbers in the PDF file. 
 	Also write a Python script that validates the integrity of the file.
 
 Task 4: Use the csv file in Task 3 as the input, and produce a single JSON file for the curriculum that contains all the knowledge areas using a python/shell script. My approach to this was using python and imported task 3's validate csv program into this script.It takes in the csv file as input, validates it and converts it to json file. If validation fails it will then return back. 
+
+
+## Skills and Tools Used
+
+During this project, I gained experience with Python, HTML/CSS, Git, GitHub, command-line tools, JSON and CSV processing, data validation, Streamlit, and version control workflows.
